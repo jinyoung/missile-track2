@@ -48,7 +48,7 @@ public class MissileApplication {
 	}
 
 
-	@RequestMapping(path="/estimate", method = {RequestMethod.POST, RequestMethod.GET})
+	@RequestMapping(path="/selectBattery", method = {RequestMethod.POST, RequestMethod.GET})
 	public Battery selectBattery(){
 
 		System.out.println("battery selected");
